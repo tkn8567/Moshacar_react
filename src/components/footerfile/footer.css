@@ -1,0 +1,44 @@
+.footer_box {
+    margin: 1rem;
+    padding-top: 0.5rem;
+    /* border: medium solid #b5d1e2; */
+    height: 11.5rem;
+    background-color: #01015A;
+}
+.footer_row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_infos {
+    /* border: medium solid #0474bc; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 4.2rem;
+    width: 51.5rem;
+}
+.footer_info {
+    /* border: medium solid #788288; */
+    width: 12rem;
+    margin: 0 auto;
+    height: 3.9rem;
+}
+.footer_info_p {
+    margin: 0;
+    text-align: left;
+    color: white;
+    line-height: .75rem;
+}
+.footer_about_logos {
+    margin: 0 auto;
+    height: 1.5rem;
+    width: 3.5rem;
+}
+.footer_about_p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    line-height: 0.73rem;
+}

@@ -1,0 +1,125 @@
+.main_box {
+    margin: 1rem;
+    border: medium solid #b5d1e2;
+    padding: .5rem;
+}
+.main_row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.main_button {
+    width: 20rem;
+    margin: .5rem auto;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background-color: #01015A;
+    color: white;
+    font-size: .9rem;
+}
+.main_title {
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    height: 2rem;
+    margin-top: .5rem;
+}
+.main_title_option {
+    margin-top: .5rem;
+    font-weight: bolder;
+}
+.main_sells {
+    margin: 0 auto;
+    margin-top: .5rem;
+    border: medium solid #0474bc;
+    height: 16rem;
+    width: 51.5rem;
+}
+.main_reasons {
+    border: medium solid #0474bc;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: .5rem;
+    height: 16.5rem;
+    width: 42rem;
+}
+.main_reason {
+    border: medium solid #788288;
+    margin: .5rem auto;
+    height: 15rem;
+    width: 12rem;
+}
+.main_flows {
+    border: medium solid #0474bc;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    height: 14rem;
+}
+.main_flow {
+    border: medium solid #788288;
+    width: 10.5rem;
+    margin: .5rem auto;
+    height: 12.5rem;
+}
+.main_voices {
+    border: medium solid #0474bc;
+    margin-top: .5rem;
+    height: 42.5rem;
+}
+.main_voice {
+    margin: 0 auto;
+    margin-top: .5rem;
+    border: medium solid #0474bc;
+    height: 13rem;
+    width: 24rem;
+}
+.main_brands {
+    margin: 0 auto;
+    margin-top: .5rem;
+    border: medium solid #0474bc;
+    height: 22rem;
+    width: 51rem;
+}
+.main_car_models {
+    margin: 0 auto;
+    margin-top: .5rem;
+    border: medium solid #0474bc;
+    height: 22rem;
+    width: 51rem;
+}
+.main_body_types {
+    margin: 0 auto;
+    margin-top: .5rem;
+    border: medium solid #0474bc;
+    height: 17rem;
+    width: 51rem;
+}
+.main_forms {
+    border: medium solid #0474bc;
+    margin: 0 auto;
+    margin-top: .5rem;
+    height: 35rem;
+    width: 26rem;
+}
+.main_columns {
+    /* border: medium solid #0474bc; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    height: 13rem;
+}
+.main_column {
+    /* border: medium solid #788288; */
+    width: 10rem;
+    margin: .5rem auto;
+    height: 12rem;
+    line-height: .7rem;
+}
