@@ -42,7 +42,7 @@
     width: 51.5rem;
 }
 .main_reasons {
-    border: medium solid #0474bc;
+    /* border: medium solid #0474bc; */
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@
     width: 42rem;
 }
 .main_reason {
-    border: medium solid #788288;
+    /* border: medium solid #788288; */
     margin: .5rem auto;
     height: 16rem;
     width: 11.5rem;
@@ -62,34 +62,75 @@
     text-align: left;
 }
 .main_reason_phrase {
-    border: medium solid #0474bc;
-    margin: .5rem auto;
-    height: 10rem;
+    /* border: medium solid #0474bc; */
+    margin: 1rem auto;
+    height: 5rem;
     position: relative;
+    width: 32.5rem;
 }
 .main_reason_phrase .layer1 {
     position: absolute;
     z-index: 1;
-    left: 13rem;
+    margin-left: 3rem;
 }
-.phrase1 {
+
+.main_reason_phrase .layer1 .phrase1 {
     color: #003E84;
     font-weight: bold;
     font-size: 1.3rem;
 }
-.phrase2 {
+.main_reason_phrase .layer1 .phrase2 {
     color: #EA7100;
     font-weight: bold;
     font-size: 1.3rem;
 }
-.phrase3 {
+.main_reason_phrase .layer1 .phrase3 {
     color: #003E84;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 .main_reason_phrase .layer2 {
-    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
     z-index: 2;
+}
+.main_reason_phrase .layer2 .left {
+    /* border: medium solid #0474bc; */
+    width: 5rem;
+    height: 5rem;
+    background-image:linear-gradient(
+        45deg,
+        transparent 48.5%, #003E84 48.5%,
+        #003E84 51.5%, transparent 51.5%);
+}
+.main_reason_phrase .layer2 .right {
+    /* border: medium solid #0474bc; */
+    left: 0;
+    width: 5rem;
+    height: 5rem;
+    background-image:linear-gradient(
+        -45deg,
+        transparent 48.5%, #003E84 48.5%,
+        #003E84 51.5%, transparent 51.5%);
+}
+
+.main_reason_flow {
+    border: 0.15rem solid #0474bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 14rem;
+    margin: 2rem auto;
+}
+.main_reason_flow_box {
+    color: #003E84;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.main_reason_image {
+    margin-bottom: 3rem;
 }
 .main_flows {
     /* border: medium solid #0474bc; */

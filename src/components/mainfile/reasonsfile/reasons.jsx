@@ -27,10 +27,18 @@ const Reasons = () =>{
                 <span className='phrase3'>革新的サービスです。</span>
             </div>
             <div className='layer2'>
-
+                <div className='left'/>
+                <div className='right'/>
             </div>
         </div>
-        <img src={image_reason4} height='307' width='500'/>
+        <div className='main_reason_flow'>
+            <div className='main_reason_flow_box'>
+                 中古車流通のフロー
+            </div>
+        </div>
+        <div className='main_reason_image'>
+            <img src={image_reason4} height='307' width='500'/>
+        </div>
         </>
     );
 }
