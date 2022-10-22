@@ -1,5 +1,6 @@
 .header_box {
-    margin: 1rem;
+    margin: 1rem auto;
+    width: 52rem;
     border: medium solid #b5d1e2;
     position: relative;
     display: flex;
