@@ -1,7 +1,7 @@
 # ウェブページの模写
-https://www.sellca-sellcar.com/
-開始: docker compose up
-閲覧: http://localhost:3000/
+https://www.sellca-sellcar.com/  
+開始: docker compose up  
+閲覧: http://localhost:3000/  
 終了: docker compose down
 
 ## 進捗
