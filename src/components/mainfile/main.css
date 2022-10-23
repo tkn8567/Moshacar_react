@@ -1,6 +1,6 @@
 .main_box {
     margin: 1rem auto;
-    border: medium solid #b5d1e2;
+    /* border: medium solid #b5d1e2; */
     padding: .5rem;
     width: 52rem;
 }
@@ -115,7 +115,6 @@
         transparent 48.5%, #003E84 48.5%,
         #003E84 51.5%, transparent 51.5%);
 }
-
 .main_reason_flow {
     border: 0.15rem solid #0474bc;
     display: flex;
@@ -219,21 +218,52 @@
     margin: 0 auto;
     margin-top: .5rem;
     border: medium solid #0474bc;
-    height: 22rem;
+    height: 40rem;
     width: 51rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_car_model {
+     border: thin solid #788288;
+     width: 15.5rem;
+     height: 5rem;
+     text-align: left;
+}
+.car_model_content_top {
+    height: 1.3rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+}
+.car_model_num {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #C1C1C1;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: .8rem;
+    color: #ffffff;
+    background-color: #c1c1c1;
+}
+.car_model_name {
+    font-size: .7rem;
+    font-weight: bold;
 }
 .main_body_types {
     margin: 0 auto;
     margin-top: .5rem;
     /* border: medium solid #0474bc; */
-    height: 16.5rem;
+    height: 16.2rem;
     width: 51rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .main_body_type {
-    border: thin solid #788288;
+    border: .01rem solid #788288;
     width: 10.075rem;
     height: 4rem;
     line-height: .7rem;
