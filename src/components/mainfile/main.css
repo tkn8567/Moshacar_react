@@ -213,6 +213,7 @@
     width: 5.7rem;
     height: 5rem;
     line-height: .6rem;
+    font-weight: bold;
 }
 .main_car_models {
     margin: 0 auto;
@@ -247,10 +248,36 @@
     font-size: .8rem;
     color: #ffffff;
     background-color: #c1c1c1;
+    margin-right: 0.3rem;
 }
 .car_model_name {
     font-size: .7rem;
     font-weight: bold;
+}
+.car_model_content_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.car_model_content_left {
+    border: thin solid #788288;
+    width: 5.5rem;
+    height: 3.5rem;
+    text-align: center;
+}
+.car_model_content_right {
+    border: thin solid #788288;
+    font-size: .5rem;
+    font-weight: bold;
+    width: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .7rem;
+}
+.car_model_price {
+    color: #184E8C;
+    font-size: .7rem;
 }
 .main_body_types {
     margin: 0 auto;

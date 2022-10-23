@@ -37,12 +37,15 @@ const Brands = () =>{
                         <div className='car_model_num'>{index+1}</div>
                         <div className='car_model_name'>{content.name}</div>
                     </div>
-                    <div className='car_model_content_left'>
-                        <img src={content.image} height='50' width='80' />
+                    <div className='car_model_content_bottom'>
+                        <div className='car_model_content_left'>
+                            <img src={content.image} height='55' width='83' />
+                        </div>
+                        <div className='car_model_content_right'>
+                            買取相場<div className='car_model_price'>{content.price}</div>
+                        </div>
                     </div>
-                    <div className='car_model_content_right'>
-                        買取相場<div className='car_model_price'>{content.price}</div>
-                    </div>
+                    
                     
 
 
