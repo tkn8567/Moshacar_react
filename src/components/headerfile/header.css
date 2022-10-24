@@ -1,25 +1,60 @@
 .header_box {
-    margin: 1rem auto;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+}
+.header_content {
     width: 52rem;
-    border: medium solid #b5d1e2;
-    position: relative;
+    /* background-color: #5FC3F1; */
     display: flex;
     justify-content: space-between;
 }
 .header_left {
     width: 20rem;
-    border: medium solid #788288;
-    margin: .5rem;
-    padding: 0 0 0 .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: bold;
 }
 .header_right {
-    width: 20rem;
-    border: medium solid #788288;
-    right: 0;
-    margin: .5rem;
+    width: 16rem;
+    /* border: thin solid #000000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.header_logo {
-    text-align: left;
-    margin: 0;
+.header_application {
+    border: thin solid #EA8C00;
+    background-color: #EA8C00;
+    color: #fff;
+    border-radius: .3rem;
+    width: 6rem;
+    height: 2.6rem;
+    font-size: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.header_mypage {
+    border: thin solid #01015A;
+    border-radius: .3rem;
+    width: 6rem;
+    height: 2.6rem;
+    font-size: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.header_menu {
+    border: thin solid #01015A;
+    background-color: #01015A;
+    border-radius: .3rem;
+    width: 3rem;
+    height: 2.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

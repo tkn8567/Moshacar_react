@@ -1,8 +1,26 @@
 .main_box {
-    margin: 1rem auto;
+    margin: 0 auto;
     /* border: medium solid #b5d1e2; */
-    padding: .5rem;
     width: 52rem;
+}
+.main_image_box {
+    height: 21.8rem;
+    /* border: medium solid #b5d1e2; */
+    position: relative;
+}
+.main_image_z1 {
+    position: absolute;
+    z-index: 1;
+}
+.main_image_z2 {
+    position: absolute;
+    z-index: 2;
+    width: 52rem;
+    /* border: medium solid #b5d1e2; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 17.5rem;
 }
 .main_row {
     position: relative;
@@ -20,20 +38,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 .main_title {
     background-color: #D9D9D9;
     color: black;
     font-weight: bolder;
     margin: 0 auto;
-    padding-top: .6rem;
+    padding-top: .3rem;
     padding-bottom: .6rem;
-    height: 2rem;
+    height: 1.8rem;
     margin-top: .5rem;
+    font-weight: bold;
 }
 .main_title_option {
     margin-top: .5rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .main_sells {
     margin: 0 auto;

@@ -12,7 +12,6 @@ function footer() {
   ];
   return (
     <>
-      ↓footer part
       <div className='footer_box'>
         <div className='footer_top'>
           {contents.map((content, index) => {
