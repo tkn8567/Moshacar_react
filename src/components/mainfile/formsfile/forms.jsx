@@ -23,7 +23,7 @@ const Forms = () =>{
           </div>
           {selectbox_contents.map((content, index) => {
             return(
-            <div className='form_container'>
+            <div className='form_container' key={index}>
               <div className='form_title'>
                 <div className='form_title_p'>
                   <a>{content.section}</a><br/>
@@ -49,7 +49,7 @@ const Forms = () =>{
           </div>
           {textbox_contents.map((content, index) =>{
             return(
-            <div className='form_container'>
+            <div className='form_container' key={index}>
               <div className='form_title'>
                 <div className='form_title_p'>
                   <a>{content.section}</a><br/>
