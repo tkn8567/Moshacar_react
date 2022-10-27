@@ -58,9 +58,63 @@
 .main_sells {
     margin: 0 auto;
     margin-top: .5rem;
-    border: medium solid #0474bc;
-    height: 25rem;
+    border: thin solid #0474bc;
+    height: 30rem;
     width: 51.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.main_sell {
+    /* border: thin solid #0474bc; */
+    border-top: medium solid #003E84;
+    height: 14rem;
+    width: 9rem;
+    box-shadow: .3rem .3rem .3rem 0 rgba(0, 0, 0, .5);
+    text-align: left;
+}
+.sell_name {
+    border-bottom: thin solid #000;
+    font-weight: bold;
+    font-size: .1rem;
+    color: #003E84;
+    text-align: left;
+    line-height: 1rem;
+    height: 2rem;
+}
+.sell_bottom {
+    /* border: thin solid #000; */
+    width: 9rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sell_left {
+    width: 5rem;
+    border: thin solid #000;
+    font-size: .1rem;
+}
+.sell_right {
+    width: 4rem;
+    border: thin solid #000;
+    position: relative;
+}
+.sell_sold {
+    position: absolute;
+    z-index: 1;
+    font-size: .1rem;
+    color: #FF0305;
+    font-weight: bold;
+    line-height: .8rem;
+}
+.sell_price_up {
+    position: absolute;
+    z-index: 2;
+    font-size: .1rem;
+    color: #fff;
+    padding-top: 2rem; 
+    font-weight: bold;
 }
 .main_reasons {
     /* border: medium solid #0474bc; */
