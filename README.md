@@ -1,11 +1,17 @@
 # ウェブページの模写
 https://www.sellca-sellcar.com/  
+↓自分用  
 開始: docker compose up  
 閲覧: http://localhost:3000/  
 終了: docker compose down
 
 ## 進捗
 README.mdの存在に今日(2022/10/21)に気づいたから書いてみる
+
+### 2022/10/27(木)
+残りcarousel, side-bar(?)  
+知りたいこと:  
+・FCやhooksは実際にどう使われるか
 
 ### 2022/10/23(日)
 残りheader, carousel  
